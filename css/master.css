@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+
+header{
+  min-height: 60vh;
+  background-color: #314570;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header p {
+  max-width: 480px;
+}
+
+#fable01{
+  min-height: 90vh;
+  background: #e08973 url('images/fox.jpg') top center no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  padding:130px;
+  font-family: 'Quicksand';
+  font-size: 65px;
+  color: #314570;
+}
+
+#fable01 .main-content {
+  max-width: 280px;
+  font-size: 20px;
+}
+
+#fable01 h3{
+  font-size: 35px;
+}
+
+
+
+
+#fable02{
+  min-height: 60vh;
+  background: #AED1D6 url('images/wolf.jpg')top center no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  overflow: hidden;
+  padding: 80px;
+  font-family: 'Amatic SC';
+  align-items: center;
+}
+
+#fable02 h2{
+  color: #a37f6f;
+  font-size: 110px;
+  text-align: right;
+}
+
+#fable02 .main-content{
+  font-size: 60px;
+  color: #a37f6f;
+}
+
+#fable02 h3{
+  color: #a37f6f;
+  font-size: 110px;
+  text-align: right;
+}
+
+#fable03 {
+  overflow: hidden;
+  background: #000 url('images/eagle.jpg') 50% 50% no-repeat;
+  background-size: cover;
+  color: #e08973;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-size: 50px;
+}
+
+#fable03 .main-content {
+  color: #314570;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 22px;
+  margin-top : 0;
+  margin-right : auto;
+  margin-bottom : 0;
+  margin-left : auto;
+  max-width: 400px;
+  font-size: 26px;
+}
+
+#fable03 h3{
+  font-size: 34px;
+  color: #e08973;
+}
+
+.emphasised {
+  font-size: 1.3em;
+  text-shadow: 6px 6px 6px #fff;
+}
